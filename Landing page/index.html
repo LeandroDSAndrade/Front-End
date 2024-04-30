@@ -1,30 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA Consultoria Contábil</title>
     <link rel="stylesheet" href="style.css">
-    <title>Gerere: seu gerenciador de finanças pessoais </title>
 </head>
+
 <body>
+  <header>
 
-    <figure>
-        <img src="/imagens/logo.avif"/>
-    </figure>
-   
-    <nav>
+    <div class="container">
+      
+      <div class = "branding">
+        <img src="/imagens/Logomarca.jpg"><h1><span class="highlight">LA Consultoria</span> Contábil</h1>
+      </div>
+      <nav>
         <ul>
-            <li> Home </li>
-            <li> Serviços </li>
-            <li> Blog </li>
-            <li> About </li>
-            <li> FAQ </li>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contato.html">Contato</a></li>
         </ul>
-    </nav>
-
-    <div>
-        <h1> Controle suas finanças de forma simples e fácil em qualquer lugar  </h1>
+      </nav>
     </div>
-    
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1>Assessoria contábil confiável para o seu negócio</h1>
+      <p>Oferecemos serviços especializados para ajudar sua empresa a crescer com saúde financeira.</p>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="container">
+      <h1>Inscreva-se para receber novidades</h1>
+      <form>
+        <input type="email" placeholder="Digite seu email...">
+        <button type="submit" class="button_1">Inscrever</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="clear">
+    <p>Consultoria Contábil &copy; 2024</p>
+  </footer>
 </body>
 </html>
