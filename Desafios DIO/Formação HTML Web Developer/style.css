@@ -3,7 +3,7 @@
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: white;
 }
 
 /* 1. 1 menu */
@@ -55,6 +55,23 @@ body {
     min-height: 300px;
     padding: 20px;
     font-size: 18px;
+    margin: 25px;
+}
+
+.tabela {
+    background-color: white;
+    margin: 50px 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
 }
 
 /* 1.2.1 cabeçalho*/
@@ -62,17 +79,20 @@ body {
     background-color: white;
     min-height: 100px;
 }
+
 .header img {
-    margin: 0;
+    margin: 10px;
     width: 100px;
     max-width: 100%;
     background-color: #fff;
+    border-radius: 10px;
+    float: left;
 }
 
-.header span h1, h2 {
-    margin: 0;
-    text-align: center;
-    display:inline-flex;
+.header span h1 {
+    margin: 50px;
+    display:inline-block;
+
 }
 
 /* 1.2.2 rodapé*/
